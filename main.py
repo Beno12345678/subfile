@@ -4,7 +4,7 @@ from proxy_manager import get_required_proxies, is_proxy_working
 from agent import Agent
 
 # ✅ تحديد عدد الـ Agents عشوائيًا بين 10 و15
-agent_count = random.randint(10, 15)
+agent_count = random.randint(1, 3)
 print(f"🔢 Running {agent_count} agents...")
 
 final_proxies = []
